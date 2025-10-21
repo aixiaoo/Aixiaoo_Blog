@@ -2,3 +2,27 @@ baseURL = 'https://blog.aixiaoo.cn'
 languageCode = 'zh-cn'
 title = 'Aixiao Blog'
 theme = 'ananke'
+
+[[menu.main]]
+  name = "文章"
+  url = "/blog/"
+  weight = 1
+
+[[menu.main]]
+  name = "归档"
+  url = "/archive/"
+  weight = 2
+
+[[menu.main]]
+  name = "联系"
+  url = "/contact/"
+  weight = 3
+
+[[menu.main]]
+  name = "网站统计"
+  url = "/xx/"
+  weight = 4
+
+[caches]
+[caches.images]
+    dir = ':cacheDir/images'  
